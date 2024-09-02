@@ -19,10 +19,18 @@ Open a terminal and run the following command:
 ```
 curl -L -o <file_name> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
 ```
+
+#### NB FOR LINUX USERS: if you don't have curl, either run the following commands for Ubuntu-based distros or use a different install method:
+```
+sudo apt upgrade && sudo apt update
+sudo apt install curl
+curl --version
+curl -L -o <file_name> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
+```
+
 From there, use either [FTPD](https://github.com/mtheall/ftpd) to wirelessly transfer
 it to your 3DS or use an SD card. You can read more about .3gx plugins [here](https://wiki.hacks.guide/wiki/3DS:Game_plugins/3GX).
 
-#### Please not: most Linux distros do not come packaged with curl by default. Either install it or use a different download method.
 You can always grab the .3gx from https://level256.mods.jp/ if that is a preferable method. 
 
 
