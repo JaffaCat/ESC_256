@@ -12,9 +12,11 @@ for homebrewed 3DS's to connect to custom multiplayer servers for several games,
 # Installation Instructions
 #### Heads up! The program only works on Windows machines. Linux and MacOS users will need to use curl download the file.
 
+
 ### Windows
 Download the latest version of the script from the "Releases" tab. Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader
 via the Rosalina menu then boot the game. 
+
 
 ### MacOS
 Open a terminal window and run the following command. This will automatically download the plugin using curl:
@@ -22,6 +24,7 @@ Open a terminal window and run the following command. This will automatically do
 curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
 ```
 Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
+
 
 ### Ubuntu-base Linux distros
 Open a terminal window and run the following commands. This will install curl and download the file, since curl is usually not included by default.
@@ -34,8 +37,9 @@ curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
 Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
 #### Other Linux distros may download curl differently, please refer to any documentation available.
 
+
 ### I dislike command line stuff
-Understandable, the commandline can be scary. If you don't like command line (or simply don't want to install curl) you can grab the plugin 
+Understandable, the command line can be scary. If you don't like command line (or simply don't want to install curl) you can grab the plugin 
 from the [source](https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#).
 
 
