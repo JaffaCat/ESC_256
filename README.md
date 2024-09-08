@@ -4,42 +4,47 @@
   </br>
 </h1>
 
-<b>ESC_256</b> (short for Escape 256) is a small cmd script that downloads the latest version of [Level256 Network](https://level256.mods.jp), a .3gx plugin which allows 
-3DS owners to connect to custom multiplayer servers for several games, including Yo-kai Watch. 
+<b>ESC_256</b> (short for Escape 256) is a small script which downloads the latest version of [Level256 Network](https://level256.mods.jp), a .3gx plugin which allows 
+for homebrewed 3DS's to connect to custom multiplayer servers for several games, including the Yo-kai Watch franchise. 
 
-# Installation
-### Windows 
 
-Download the latest version from of the script from this Github repository. From there, use either [FTPD](https://github.com/mtheall/ftpd) to wirelessly transfer
-it to your 3DS or use an SD card. You can read more about .3gx plugins [here](https://wiki.hacks.guide/wiki/3DS:Game_plugins/3GX).
 
-### MacOS & Linux
+# Installation Instructions
+#### Heads up! The program only works on Windows machines. Linux and MacOS users will need to use curl download the file.
 
-Open a terminal and run the following command:
+### Windows
+Download the latest version of the script from the "Releases" tab. Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader
+via the Rosalina menu then boot the game. 
+
+### MacOS
+Open a terminal window and run the following command. This will automatically download the plugin using curl:
 ```
-curl -L -o <file_name> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
+curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
 ```
+Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
 
-#### NB FOR LINUX USERS: if you don't have curl, either run the following commands for Ubuntu-based distros or use a different install method:
+### Ubuntu-base Linux distros
+Open a terminal window and run the following commands. This will install curl and download the file, since curl is usually not included by default.
 ```
 sudo apt upgrade && sudo apt update
 sudo apt install curl
 curl --version
-curl -L -o <file_name> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
+curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
 ```
+Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
+#### Other Linux distros may download curl differently, please refer to any documentation available.
 
-From there, use either [FTPD](https://github.com/mtheall/ftpd) to wirelessly transfer
-it to your 3DS or use an SD card. You can read more about .3gx plugins [here](https://wiki.hacks.guide/wiki/3DS:Game_plugins/3GX).
+### I dislike command line stuff
+Understandable, the commandline can be scary. If you don't like command line (or simply don't want to install curl) you can grab the plugin 
+from the [source](https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#).
 
-You can always grab the .3gx from https://level256.mods.jp/ if that is a preferable method. 
 
+# Why make this?
+3DS mods - which many talented people have sunk their own time into - shouldn't be locked behind Discord servers for no apparent reason. Level256 locks their mod
+behind a Discord server in an attempt to farm members - something which I and many others would personally disagree with. It also limits the amount of people
+who are able to use said mod, as some people dont have access to Discord or simply don't want to use it. I also find it a func challenge to create a small project
+that allows me to learn new things (like curl and batch!)
 
-# Why did I make this?
-I don't like it when 3DS mods are primarily locked behind Discord servers, where the server's privacy policy prevents you from leaving just to farm members.
-They could have easily pointed you to their website (https://level256.mods.jp), but instead choose to point people to a third party service some don't have
-access to, or choose not to use.
-I also find it a fun challenge to create a small project like this that makes me learn new
-things (like curl!)
-
-This script does <b>NOT</b> seem to break any of Level256's Privacy Policy. The download comes directly from the website and should not be classed as secondary 
-distribution. The "Escape" clause does not apply here, as the server was never joined to download the file. Please do not ask for help from them with this download method.
+<sup>This script does not break any of Level256's rules or ToS. By downloading it via curl or the direct link, you haven't agreed to their ToS, meaning the 
+"secondary download" clause does not apply. The download comes directly from their hosting provider. This is an unoffical download method - please do not ask them 
+for support regarding it.</sup>
