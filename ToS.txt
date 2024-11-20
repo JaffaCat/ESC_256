@@ -5,8 +5,6 @@ Level256 ToS (Translated from Japanese by Google)
 Prohibitions: 
 Use of cheating and malicious glitches when playing online 
 Inappropriate usernames on the service
-Secondary distribution: Sharing to a third party by someone other than the author.
-Escape: Leaving the server after downloading the file. 
 
 ### Points to note ###
 We will not be able to respond to any information or questions that are not related to online play, such as 3DS modifications or cheats.

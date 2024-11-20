@@ -11,9 +11,9 @@ set /p confirm=Press "Y" to continue or "N" to abort:
 if "%confirm%" == "Y" (
 	type banner.txt
 	echo Downloading the latest version of Level256 to current directory...
-	echo Source: "https://zibukasu.xsrv.jp/download/148"
+	echo Source: "https://level256.mods.jp/update/Level256_Network"
 	echo ===========================
-	curl -L "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#" -o Level256_Network.zip
+	curl -L "https://level256.mods.jp/update/Level256_Network" -o Level256_Network.zip
 	move "Level256_Network.zip" "output"
 	echo Done! :)
 	pause

@@ -21,7 +21,7 @@ via the Rosalina menu then boot the game.
 ### MacOS
 Open a terminal window and run the following command. This will automatically download the plugin using curl:
 ```
-curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
+curl -L -o <file_name.zip> "https://level256.mods.jp/update/Level256_Network"
 ```
 Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
 
@@ -32,7 +32,7 @@ Open a terminal window and run the following commands. This will install curl an
 sudo apt upgrade && sudo apt update
 sudo apt install curl
 curl --version
-curl -L -o <file_name.zip> "https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#"
+curl -L -o <file_name.zip> "https://level256.mods.jp/update/Level256_Network"
 ```
 Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the plugin loader via the Rosalina menu then boot the game. 
 #### Other Linux distros may download curl differently, please refer to any documentation available.
@@ -40,7 +40,7 @@ Unzip the file & place it under "<sd_card_name_here>/luma/plugins". Enable the p
 
 ### I dislike command line stuff
 Understandable, the command line can be scary. If you don't like command line (or simply don't want to install curl) you can grab the plugin 
-from the [source](https://zibukasu.xsrv.jp/download/148/?/wpdmdl=148#).
+from the [source](https://level256.mods.jp/update/Level256_Network).
 
 
 # Why make this?
